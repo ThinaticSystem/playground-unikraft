@@ -16,7 +16,8 @@
 		"vscode": {
 			"extensions": [
 				"EditorConfig.EditorConfig",
-				"rust-lang.rust-analyzer"
+				"rust-lang.rust-analyzer",
+				"timonwong.shellcheck"
 			]
 		}
 	}
