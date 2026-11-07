@@ -2,8 +2,9 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/debian
 {
 	"name": "playground-unikraft",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:trixie",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
 	"workspaceFolder": "/workspace",
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
 	"postCreateCommand": ".devcontainer/post-create.sh",
