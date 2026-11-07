@@ -16,6 +16,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"docker.docker",
 				"EditorConfig.EditorConfig",
 				"rust-lang.rust-analyzer",
 				"timonwong.shellcheck"

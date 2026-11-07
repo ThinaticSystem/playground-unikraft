@@ -1,7 +1,8 @@
 {
 	"recommendations": [
+		"docker.docker",
 		"editorconfig.editorconfig",
 		"rust-lang.rust-analyzer",
-		"timonwong.shellcheck"
+		"timonwong.shellcheck",
 	]
 }
